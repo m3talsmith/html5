@@ -1,0 +1,21 @@
+{
+  "name": "html5",
+  "version": "0.0.0",
+  "description": "html5 =====",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/m3talsmith/html5.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/m3talsmith/html5/issues"
+  },
+  "dependencies": {
+    "bower": "~1.3.12"
+  }
+}
