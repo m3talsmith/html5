@@ -2,8 +2,44 @@
 <html lang="en">
   <head>
     <title>DragonHoard</title>
+    <script src="components/platform/platform.js"></script>
+
+    <link rel="import" href="components/core-scroll-header-panel/core-scroll-header-panel.html" />
+    <link rel="import" href="components/core-toolbar/core-toolbar.html" />
+    <link rel="import" href="components/core-icons/core-icons.html" />
+    <link rel="import" href="components/paper-icon-button/paper-icon-button.html" />
+    <link rel="import" href="components/core-menu/core-menu.html" />
+    <link rel="import" href="components/core-item/core-item.html" />
   </head>
-  <body>
-    <h1>Hello</h1>
+  <body fullbleed vertical layout unresolved>
+    <link rel="import" href="components/polymer/polymer.html" />
+
+    <polymer-element name="x-layout">
+      <template>
+        <style>
+        </style>
+
+        <p>test</p>
+        <core-scroll-header-panel id="coreHeader">
+          <core-toolbar>
+            <span flex>DragonHoard</span>
+          </core-toolbar>
+          <div content>
+            <p>Content goes here</p>
+            <h2>Simple application</h2>
+          </div>
+        </core-scroll-header-panel>
+      </template>
+      <script>
+        Polymer({
+          ready: function () {
+            this.$.coreHeader.measureHeaderHeight();
+            console.log(this.$.coreHeader.headerHeight);
+          }
+        });
+      </script>
+    </polymer-element>
+
+    <x-layout fit></x-layout>
   </body>
 </html>
