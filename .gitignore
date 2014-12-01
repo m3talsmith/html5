@@ -1,0 +1,3 @@
+build/js/{dragonfire.js,dragonhoard.js}
+*.sw*
+*.log

@@ -4,7 +4,8 @@ The HMTL 5 interface for DragonHoard
 
 ## Development Requirements
 
-n. NodeJs 0.10.2
+n. Clojure >= 1.6.0
+n. Leiningen >= 2.5.0
 
 ## Deploy Requirements
 
