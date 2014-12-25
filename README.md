@@ -4,8 +4,7 @@ The HMTL 5 interface for DragonHoard
 
 ## Development Requirements
 
-n. Clojure >= 1.6.0
-n. Leiningen >= 2.5.0
+n. The latest Chrome or Firefox
 
 ## Deploy Requirements
 
